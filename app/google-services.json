@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280037855790",
+    "firebase_url": "https://talkinghands-ced11.firebaseio.com",
+    "project_id": "talkinghands-ced11",
+    "storage_bucket": "talkinghands-ced11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280037855790:android:4db13812ccce7349",
+        "android_client_info": {
+          "package_name": "com.example.freya.talking_hands"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280037855790-ihdf8mc7ts9t398ubr0plmia9fhln80k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freya.talking_hands",
+            "certificate_hash": "ed6dacd1bfcb3f1fc9d2184e09da3f61f7b5d90f"
+          }
+        },
+        {
+          "client_id": "280037855790-u1pc64ivevqspdntagvtbi816l7uil1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZLQBrHfJ_mRcAnefPtDFt9HDhFV6Y0EY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280037855790-u1pc64ivevqspdntagvtbi816l7uil1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

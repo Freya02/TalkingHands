@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:src="@drawable/logo1"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageview"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARN"
+        android:background="@drawable/rounded_button"
+        android:textColor="#fff"
+        android:id="@+id/learn"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAKE NOTES"
+        android:background="@drawable/rounded_button"
+        android:textColor="#fff"
+        android:id="@+id/notes"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FUN FACTS"
+        android:background="@drawable/rounded_button"
+        android:textColor="#fff"
+        android:id="@+id/quiz"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

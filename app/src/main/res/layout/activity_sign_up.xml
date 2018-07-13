@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<EditText
+    android:id="@+id/editText4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editText12"
+    android:layout_margin="10dp"
+    android:background="@drawable/edit_text"
+    android:ems="10"
+    android:hint="Email Id"
+    android:inputType="textEmailAddress"
+    android:padding="15dp" />
+
+<EditText
+    android:id="@+id/editText7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editText4"
+    android:layout_margin="10dp"
+    android:background="@drawable/edit_text"
+    android:ems="10"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:padding="15dp" />
+
+<EditText
+    android:id="@+id/editText8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editText7"
+    android:layout_margin="10dp"
+    android:background="@drawable/edit_text"
+    android:ems="10"
+    android:hint="Confirm Password"
+    android:inputType="textPassword"
+    android:padding="15dp" />
+
+<EditText
+    android:id="@+id/editText9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editText8"
+    android:layout_margin="10dp"
+    android:background="@drawable/edit_text"
+    android:ems="10"
+    android:hint="Date of Birth"
+    android:inputType="date"
+    android:padding="15dp" />
+
+<EditText
+    android:id="@+id/editText10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editText9"
+    android:layout_margin="10dp"
+    android:background="@drawable/edit_text"
+    android:ems="10"
+    android:hint="Contact"
+    android:inputType="phone"
+    android:padding="15dp" />
+
+<EditText
+    android:id="@+id/editText12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_margin="10dp"
+    android:background="@drawable/edit_text"
+    android:ems="10"
+    android:hint="Full Name"
+    android:inputType="textPersonName"
+    android:padding="15dp" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@+id/editText10"
+    android:layout_alignLeft="@+id/editText10"
+    android:layout_below="@+id/editText10"
+    android:layout_margin="5dp"
+    android:background="@drawable/button_design"
+    android:padding="20dp"
+    android:text="Create New Account"
+    android:textColor="#fff"/>
+</RelativeLayout>

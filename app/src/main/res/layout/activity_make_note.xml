@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MakeNote"
+android:orientation="vertical">
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:hint="Title goes here.."
+    android:id="@+id/title"
+    android:background="@drawable/edit_text"
+    android:layout_weight="2"
+    android:layout_margin="5dp"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:hint="Description goes here.."
+    android:id="@+id/desc"
+    android:layout_weight="8"
+    android:gravity="top"
+    android:layout_margin="5dp"
+    android:background="@drawable/edit_text"
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:text="MAKE NOTE"
+    android:background="@drawable/button_design"
+    android:layout_weight="1"
+    android:textColor="#fff"
+    android:id="@+id/makenote"
+    />
+
+
+</LinearLayout>
